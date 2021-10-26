@@ -1,0 +1,21 @@
+监控情况
+
+CatalogActionBean
+	viewCategory * 6
+	searchProducts * 4
+	viewProduct * 6
+	viewItem * 2
+
+AccountActionBean
+	signon * 2
+	newAccount
+
+OrderActionBean
+	newOrder
+	viewOrder 			【* 2	(0 times item (29 48))	// 将系统中被两个请求访问的的部分改为访问两次】
+	listOrder * 2
+	newOrderForm 		【* 2 (0 times in 39 )	// 将系统中被两个请求访问的的部分改为访问两次】
+
+CartActionBean
+	updateCartQuantities
+	addItemToCart * 4
